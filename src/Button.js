@@ -1,5 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
 import './css/buttons.css'
 
 
@@ -19,21 +18,10 @@ const Button3 = () =>{
         <button3>
             People
         </button3>
-=======
-import './buttons.css'
-
-function Button() {
-  return (
-    <div className='button'>
-        <button>
-            click me
-        </button>
->>>>>>> 513ee7595a28be36b85548e8c49e17d068c72e14
     </div>
   )
 }
 
-<<<<<<< HEAD
 const Button4 = () =>{
   return (
     <div className='Jobs'>
@@ -79,6 +67,3 @@ export{
     Button6,
     Button7
 }
-=======
-export default Button
->>>>>>> 513ee7595a28be36b85548e8c49e17d068c72e14
