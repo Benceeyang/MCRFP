@@ -3,7 +3,7 @@ import './SecondPage.css'
 import Home from '../images/home.jpg'
 import {Link} from 'react-router-dom'
 import Clockerr from './Clockerr.js'
-import{Button2, Button3, Button4, Button5, Button6, Button7} from '../Button.js'
+import{Buttonoffices, Buttonpeople, Buttonjobs, Buttondir, Buttonabout, Buttonne} from '../Button.js'
 
 
 function SecondPage() {
@@ -12,22 +12,22 @@ function SecondPage() {
       .
         <Clockerr className='clocker' />
         <Link to ='/third'>
-        <Button4 />
+        <Buttonjobs />
         </Link>
         <Link to ='/ '>
-        <Button2 />
+        <Buttonoffices />
         </Link>
-        <Link to ='fourth'>
-        <Button3 />
+        <Link to ='/people'>
+        <Buttonpeople />
         </Link>
-        <Link to ='dir'>
-        <Button5 />
-        </Link>
-        <Link to ='/'>
-        <Button6 />
+        <Link to ='/dir'>
+        <Buttondir />
         </Link>
         <Link to ='/'>
-        <Button7 />
+        <Buttonabout />
+        </Link>
+        <Link to ='/dir'>
+        <Buttonne />
         </Link>
     </div>
   )

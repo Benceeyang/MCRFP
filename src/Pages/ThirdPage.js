@@ -1,15 +1,15 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import{Button2, Button3, Button4} from '../Button.js'
+import{Button2, Buttonoffices, Buttonjobs} from '../Button.js'
 function ThirdPage() {
   return (
     <div>
         ThirdPage
     <Link to='fourth'>
-    <Button4 />
+    <Buttonjobs />
     </Link>   
     <Link to ='/ '>
-        <Button2 />
+        <Buttonoffices />
         </Link>
     </div>
   )
