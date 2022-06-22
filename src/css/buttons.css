@@ -1,92 +1,12 @@
 .Jobs{
     bottom: 200px;
-    width: 100;
-    height: 100;
+    width: 300px;
+    height: 60px;
       color: black;
       position: fixed;
       font-size: 50px;
-      
-      left: 36%;
-      /* bring your own prefixes */
-      transform: translate(-50%, -50%);
-      padding: 15px 70px;
-    border: 3px solid silver; /* Green */
-    display: inline-block;
-    background-color: silver;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-radius: 12px;
-font-weight: bold;
-}
-
-.Offices{
-    bottom: 400px;
-    width: 100;
-    height: 100;
-      color: black;
-      position: fixed;
-      font-size: 50px;
-      
-      left: 36%;
-      /* bring your own prefixes */
-      transform: translate(-50%, -50%);
-      padding: 15px 32px;
-    border: 3px solid silver; /* Green */
-    display: inline-block;
-    background-color: silver;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-radius: 12px;
-    font-weight: bold;
-
-}
-.People{
-     bottom: 400px;
-    width: 100;
-    height: 100;
-      color: black;
-      position: fixed;
-      font-size: 50px;
-      
-      left: 63%;
-      /* bring your own prefixes */
-      transform: translate(-50%, -50%);
-      padding: 15px 32px;
-    border: 3px solid silver; /* Green */
-    display: inline-block;
-    background-color: silver;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-radius: 12px;
-    font-weight: bold;
-}
-
-.Directory{
-    bottom: 200px;
-    width: 100;
-    height: 100;
-      color: black;
-      position: fixed;
-      font-size: 50px;
-      
-      left: 63%;
-      /* bring your own prefixes */
-      transform: translate(-50%, -50%);
-      padding: 15px 32px;
-    border: 3px solid silver; /* Green */
-    display: inline-block;
-    background-color: silver;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-radius: 12px;
-    font-weight: bold;
-}
-
-.AboutMKE{
-    bottom: 0px;
-    width: 100;
-    height: 100;
-      color: black;
-      position: fixed;
-      font-size: 50px;
-      
-      left: 63%;
+      text-align: center;
+      left: 34%;
       /* bring your own prefixes */
       transform: translate(-50%, -50%);
       padding: 15px 32px;
@@ -96,26 +16,115 @@ font-weight: bold;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 12px; 
      font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
 }
 
-.NewsEvents{
-    bottom: 0px;
-    width: 100;
-    height: 100;
+.Offices{
+    bottom: 400px;
+    width: 300px;
+    height: 60px;
       color: black;
       position: fixed;
       font-size: 50px;
-      
-      left: 37%;
+      text-align: center;
+      left: 34%;
       /* bring your own prefixes */
       transform: translate(-50%, -50%);
-      padding: 13px 15px;
+      padding: 15px 32px;
     border: 3px solid silver; /* Green */
     display: inline-block;
     background-color: silver;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-radius: 12px;
-    font-weight: bold;
-    box-shadow: 0 0 0 1px grey inset,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
-    
+    border-radius: 12px; 
+     font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
+}
+.People{
+     bottom: 400px;
+     width: 300px;
+    height: 60px;
+      color: black;
+      position: fixed;
+      font-size: 50px;
+      text-align: center;
+      left: 66%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+      padding: 15px 32px;
+    border: 3px solid silver; /* Green */
+    display: inline-block;
+    background-color: silver;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px; 
+     font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
+}
+
+.Directory{
+    bottom: 195px;
+    width: 300px;
+    height: 60px;
+      color: black;
+      position: fixed;
+      font-size: 50px;
+      text-align: center;
+      left: 66%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+      padding: 15px 32px;
+    border: 3px solid silver; /* Green */
+    display: inline-block;
+    background-color: silver;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px; 
+     font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
+}
+
+.AboutMKE{
+    bottom: -5px;
+    width: 300px;
+    height: 60px;
+      color: black;
+      position: fixed;
+      font-size: 50px;
+      text-align: center;
+      left: 66%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+      padding: 15px 32px;
+    border: 3px solid silver; /* Green */
+    display: inline-block;
+    background-color: silver;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px; 
+     font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
+}
+
+.NewsEvents{
+    bottom: -5px;
+    width: 300px;
+    height: 60px;
+      color: black;
+      position: fixed;
+      font-size: 50px;
+      text-align: center;
+      left: 34%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+      padding: 15px 32px;
+    border: 3px solid silver; /* Green */
+    display: inline-block;
+    background-color: silver;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px; 
+     font-weight: bold;
+     box-shadow: 0 0 0 1px silver,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0 grey,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+     background: linear-gradient(250deg, #fff, #525153   );
 }

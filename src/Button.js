@@ -108,7 +108,7 @@ const Buttonhealth = () =>{
   return (
     <div className='Health'>
         <button12>
-            Health and something
+            Health and Services
         </button12>
     </div>
   )
@@ -136,7 +136,9 @@ const Buttonhousing = () =>{
   return (
     <div className='Housing'>
         <button15>
-           Transportation and Housing
+           Transportation 
+           and 
+           Housing
         </button15>
     </div>
   )

@@ -5,7 +5,7 @@ export default function App() {
 
     const [hours,setHours]=useState("00");
     const [minutes,setMinutes]=useState("00");
-    const [seconds,setSeconds]=useState("00");
+    //const [seconds,setSeconds]=useState("00");
     const [date,setDate]=useState("date");
 
     useEffect(
@@ -22,19 +22,19 @@ export default function App() {
     setDate(z);
     setHours(h.padStart(2,'0'));
     setMinutes(m.padStart(2,'0'));
-    setSeconds(s.padStart(2,'0'));
+    //setSeconds(s.padStart(2,'0'));
 
 
     return () => clearInterval(intervalId); 
     },1000);
-},[seconds,minutes,hours,date]);
+},[/*seconds*/,minutes,hours,date]);
 
     return (
         <div>
             <h1 className="date">{date}</h1>
            <h1 className="glow">{hours}
            :{minutes}
-           :{seconds}</h1>
+           {/*seconds*/}</h1>
 
         </div>
     )
