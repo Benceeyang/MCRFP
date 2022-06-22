@@ -1,10 +1,14 @@
 import React from 'react'
-<<<<<<< HEAD
 import './css/buttons.css'
-
-
-
-const Button2 = () =>{
+import './css/DirectoryPage.css'
+import './css/PublicPage.css'
+import './css/ArtsPage.css'
+import './css/ChildrenPage.css'
+import './css/HealthPage.css'
+import './css/HousingPage.css'
+import './css/TransportPage.css'
+import './css/ParksPage.css'
+const Buttonoffices = () =>{
   return (
     <div className='Offices'>
         <button2>
@@ -13,28 +17,17 @@ const Button2 = () =>{
     </div>
   )
 }
-const Button3 = () =>{
+const Buttonpeople = () =>{
   return (
     <div className='People'>
         <button3>
             People
         </button3>
-=======
-import './buttons.css'
-
-function Button() {
-  return (
-    <div className='button'>
-        <button>
-            click me
-        </button>
->>>>>>> 513ee7595a28be36b85548e8c49e17d068c72e14
     </div>
   )
 }
 
-<<<<<<< HEAD
-const Button4 = () =>{
+const Buttonjobs = () =>{
   return (
     <div className='Jobs'>
         <button4>
@@ -43,7 +36,7 @@ const Button4 = () =>{
     </div>
   )
 }
-const Button5 = () =>{
+const Buttondir = () =>{
   return (
     <div className='Directory'>
         <button5>
@@ -52,7 +45,7 @@ const Button5 = () =>{
     </div>
   )
 }
-  const Button6 = () =>{
+  const Buttonabout = () =>{
     return (
       <div className='AboutMKE'>
           <button6>
@@ -61,24 +54,205 @@ const Button5 = () =>{
       </div>
     )
   }
-    const Button7 = () =>{
+
+
+const Buttonne = () =>{
+  return (
+    <div className='NewsEvents'>
+        <button7>
+            News/Events
+        </button7>
+    </div>
+  )
+}   
+ const Buttontransportation = () =>{
       return (
-        <div className='NewsEvents'>
-            <button7>
-                News/Events
-            </button7>
+        <div className='Transportation'>
+            <button8>
+                Transportation
+            </button8>
         </div>
       )
 }
+const Buttonreturndir = () =>{
+  return (
+    <div className='Returndir'>
+        <button9>
+            Return to Menu
+        </button9>
+    </div>
+  )
+}
+const Buttonpublicsaftey = () =>{
+  return (
+    <div className='Publicsafety'>
+        <button10>
+            Public
+            Safety and
+            Justice
+        </button10>
+    </div>
+  )
+}
+const Buttonparks = () =>{
+  return (
+    <div className='Parks'>
+        <button11>
+            Parks and
+            Recreation
+        </button11>
+    </div>
+  )
+}
+const Buttonhealth = () =>{
+  return (
+    <div className='Health'>
+        <button12>
+            Health and Services
+        </button12>
+    </div>
+  )
+}
+const Buttonarts = () =>{
+  return (
+    <div className='Arts'>
+        <button13>
+            Arts and Culture
+        </button13>
+    </div>
+  )
+}
+const Buttonchildren = () =>{
+  return (
+    <div className='Children'>
+        <button14>
+            Children and
+            Family
+        </button14>
+    </div>
+  )
+}
+const Buttonhousing = () =>{
+  return (
+    <div className='Housing'>
+        <button15>
+           Transportation 
+           and 
+           Housing
+        </button15>
+    </div>
+  )
+}
+const Buttonpublicback = () =>{
+  return (
+    <div className='Publicback'>
+        <button16>
+           Go Back
+        </button16>
+    </div>
+  )
+}
+const Buttonparkback = () =>{
+  return (
+    <div className='Parkback'>
+        <button17>
+           Go Back
+        </button17>
+    </div>
+  )
+}
+const Buttonartsback = () =>{
+  return (
+    <div className='Artsback'>
+        <button18>
+           Go Back
+        </button18>
+    </div>
+  )
+}
+const Buttonchildrenback = () =>{
+  return (
+    <div className='Childrenback'>
+        <button19>
+           Go Back
+        </button19>
+    </div>
+  )
+}
+const Buttonhealthback = () =>{
+  return (
+    <div className='Healthback'>
+        <button20>
+           Go Back
+        </button20>
+    </div>
+  )
+}
+const Buttonhousingback = () =>{
+  return (
+    <div className='Housingback'>
+        <button21>
+           Go Back
+        </button21>
+    </div>
+  )
+}
+const Buttontransportback = () =>{
+  return (
+    <div className='Transportback'>
+        <button22>
+           Go Back
+        </button22>
+    </div>
+  )
+}
+const Buttondirmenu= () =>{
+  return (
+    <div className='Dirmenu'>
+        <button23>
+           Go Back
+        </button23>
+    </div>
+  )
+}
+const Buttondirreturnmenu= () =>{
+  return (
+    <div className='Dirreturnmenu'>
+        <button24>
+           Return to Test
+        </button24>
+    </div>
+  )
+}
 export{
     
-    Button2,
-    Button3,
-    Button4,
-    Button5,
-    Button6,
-    Button7
+  Buttonoffices,
+  Buttonpeople,
+    Buttonjobs,
+    Buttondir,
+    Buttonabout,
+    Buttonne,
+    //--These go in the Directory Page
+    Buttontransportation,  
+    Buttonpublicsaftey,
+    Buttonparks,
+    Buttonarts,
+    Buttonhealth,
+    Buttonchildren,
+    Buttonhousing,
+    //^^^^^^
+    Buttonreturndir,
+    //--These buttons bring you back to the Directory Page
+    Buttonpublicback,
+    Buttonparkback,
+    Buttonartsback,
+    Buttonchildrenback,
+    Buttonhealthback,
+    Buttonhousingback,
+    Buttontransportback,
+    //--^^^^^
+    //These are independent Main menu buttons
+    Buttondirmenu,
+    Buttondirreturnmenu
+    //^^^^^
 }
-=======
-export default Button
->>>>>>> 513ee7595a28be36b85548e8c49e17d068c72e14

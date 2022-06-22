@@ -15,7 +15,7 @@ export default function App() {
     let d=new Date();
     var h=d.getHours();
     var m=d.getMinutes().toString();
-    var s=d.getSeconds().toString();
+    // var s=d.getSeconds().toString();
     h=(h%12)||12;
     h=h.toString();
     var z=d.getDate().toString().padStart(2,'0')+" / "
@@ -23,7 +23,7 @@ export default function App() {
     setDate(z);
     setHours(h.padStart(2,'0'));
     setMinutes(m.padStart(2,'0'));
-    setSeconds(s.padStart(2,'0'));
+    //setSeconds(s.padStart(2,'0'));
 
 
     return () => clearInterval(intervalId); 
@@ -35,7 +35,7 @@ export default function App() {
             <h1 className="nope">{date}</h1>
            <h1 className="work">{hours}
            :{minutes}
-           :{seconds}</h1>
+           </h1>
 
         </div>
     )
