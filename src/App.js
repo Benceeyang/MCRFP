@@ -3,7 +3,7 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import FirstPage from './Pages/FirstPage'
 import SecondPage from './Pages/SecondPage'
-import ThirdPage from './Pages/ThirdPage'
+import OfficePage from './Pages/OfficePage'
 import PeoplePage from './Pages/PeoplePage'
 import DirectoryPage from './Pages/DirectoryPage'
 import FifthPage from './Pages/FifthPage'
@@ -22,7 +22,6 @@ export default function App() {
         <Routes>
           <Route path='/' element={<FirstPage/>}/>
           <Route path='/second' element={<SecondPage/>}/>
-          <Route path='/third' element={<ThirdPage/>}/>
           <Route path='/people' element={<PeoplePage/>}/>
           <Route path='/dir' element={<DirectoryPage/>}/>
           <Route path='/fifth' element={<FifthPage/>}/>
@@ -33,13 +32,13 @@ export default function App() {
           <Route path='/children' element={<ChildrenPage/>}/>
           <Route path='/arts' element={<ArtsPage/>}/>
           <Route path='/transportation' element={<TransportationPage/>}/>
+          <Route path='/office' element={<OfficePage/>}/>
         </Routes>
       </Router>
     </div>
    
   )
 }
-
 
 
 

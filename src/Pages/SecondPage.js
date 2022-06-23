@@ -14,7 +14,7 @@ function SecondPage() {
         <Link to ='/third'>
         <Buttonjobs />
         </Link>
-        <Link to ='/ '>
+        <Link to ='/office '>
         <Buttonoffices />
         </Link>
         <Link to ='/people'>
