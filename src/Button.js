@@ -8,6 +8,7 @@ import './css/HealthPage.css'
 import './css/HousingPage.css'
 import './css/TransportPage.css'
 import './css/ParksPage.css'
+import './css/JobPage.css'
 const Buttonoffices = () =>{
   return (
     <div className='Offices'>
@@ -224,7 +225,16 @@ const Buttondirreturnmenu= () =>{
     </div>
   )
 }
-export{
+  const Buttonjobhome= () =>{
+    return (
+      <div className='Jobhome'>
+          <button25>
+             Back
+          </button25>
+      </div>
+    )
+  }
+  export{
     
   Buttonoffices,
   Buttonpeople,
@@ -253,6 +263,9 @@ export{
     //--^^^^^
     //These are independent Main menu buttons
     Buttondirmenu,
-    Buttondirreturnmenu
+    Buttondirreturnmenu,
+    //^^^^^
+    //--Home button for job
+    Buttonjobhome
     //^^^^^
 }

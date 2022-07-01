@@ -15,6 +15,7 @@ import ChildrenPage from './Pages/ChildrenPage'
 import ArtsPage from './Pages/ArtsPage'
 import TransportationPage from './Pages/TransportationPage'
 import CardPage from './Pages/Cads/Cards'
+import JobPage from'./Pages/JobPage'
 export default function App() {
 
   return (
@@ -24,6 +25,7 @@ export default function App() {
           <Route path='/' element={<FirstPage/>}/>
           <Route path='/second' element={<SecondPage/>}/>
           <Route path='/people' element={<PeoplePage/>}/>
+          <Route path='/job' element={<JobPage/>}/>
           <Route path='/dir' element={<DirectoryPage/>}/>
           <Route path='/fifth' element={<FifthPage/>}/>
           <Route path='/public' element={<PublicPage/>}/>
