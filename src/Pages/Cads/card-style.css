@@ -1,0 +1,51 @@
+.body{
+    background: white;
+}
+
+.card{
+    width: 15rem;
+    background: black;
+    left: 105px;    
+    
+}
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+    
+}
+.card-body{
+    padding:0.3rem 0 !important;
+}
+
+.card-text{
+    font-size: .9rem;
+    padding: 0.3rem .2rem;
+    
+    
+}
+
+.container-fluid .row{
+    padding-top: 3rem;
+}
+
+.overflow{
+    overflow: visibility;
+}
+.card-img-top{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+.card-img-top:hover{
+    transform: scale(1.8);
+}
+
+.btn{
+    color: white;
+    border-color: white;
+    margin-bottom: 50px;
+
+}
+
+.card-title{
+    color: white;
+}
