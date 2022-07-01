@@ -23,9 +23,6 @@ function DirectoryPage() {
     </Link>  
     <Link to='/cards'>
     <Buttonarts />
-    </Link>
-    <Link to='/arts'>
-    <Buttonarts />
     </Link> 
     <Link to='/children'>
     <Buttonchildren />

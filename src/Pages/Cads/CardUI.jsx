@@ -13,7 +13,7 @@ const Card = props =>{
                 <p className="card-text text-white">{props.paragraph}
                     
                 </p>
-                <a href="#" className="btn btn-outline-secondary" >View more</a>
+                <a href="#" className="btn btn-outline-light" >View more</a>
             </div>
         </div>
     ); 

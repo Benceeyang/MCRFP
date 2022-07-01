@@ -14,6 +14,7 @@ import HousingPage from './Pages/HousingPage'
 import ChildrenPage from './Pages/ChildrenPage'
 import ArtsPage from './Pages/ArtsPage'
 import TransportationPage from './Pages/TransportationPage'
+import CardPage from './Pages/Cads/Cards'
 export default function App() {
 
   return (
@@ -33,6 +34,7 @@ export default function App() {
           <Route path='/arts' element={<ArtsPage/>}/>
           <Route path='/transportation' element={<TransportationPage/>}/>
           <Route path='/office' element={<OfficePage/>}/>
+          <Route path='/cards' element={<CardPage/>}/>
         </Routes>
       </Router>
     </div>
