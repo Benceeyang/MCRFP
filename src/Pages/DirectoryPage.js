@@ -21,6 +21,9 @@ function DirectoryPage() {
     <Link to='/parks'>
     <Buttonparks />
     </Link>  
+    <Link to='/cards'>
+    <Buttonarts />
+    </Link>
     <Link to='/arts'>
     <Buttonarts />
     </Link> 
