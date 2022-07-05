@@ -1,9 +1,10 @@
 import './botanical.css';
-import logo from './images/gardenzzz.png'
-import table from './images/table.jpg'
+import logo from './Cads/images/gardenzzz.png'
+import table from './Cads/images/table.jpg'
+
 import {Link} from 'react-router-dom'
 
-function App() {
+function BotanicalPage() {
   return (
     
     <div className = "holy">
@@ -60,4 +61,4 @@ Admission collected May 1 – October</p>
   );
 }
 
-export default App;
+export default BotanicalPage;
