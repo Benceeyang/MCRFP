@@ -16,7 +16,7 @@ const Card = props =>{
                     
                 </p>
                 
-                <a href ='/bot' className="btn btn-outline-light" >;kkjokjoj</a>
+                <a href ='/bot' className="btn btn-outline-light" >test</a>
             </div>
         </div>
     ); 
