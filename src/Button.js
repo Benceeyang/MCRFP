@@ -234,6 +234,33 @@ const Buttondirreturnmenu= () =>{
       </div>
     )
   }
+  const Buttoncardback= () =>{
+    return (
+      <div className='Cardback'>
+          <button26>
+             Back
+          </button26>
+      </div>
+    )
+  }
+  const Buttonbot= () =>{
+    return (
+      <div className='Botback'>
+          <button27>
+             Back
+          </button27>
+      </div>
+    )
+  }
+  const Buttonbotmenu= () =>{
+    return (
+      <div className='Botmenu'>
+          <button28>
+             Menu
+          </button28>
+      </div>
+    )
+  }
   export{
     
   Buttonoffices,
@@ -266,6 +293,14 @@ const Buttondirreturnmenu= () =>{
     Buttondirreturnmenu,
     //^^^^^
     //--Home button for job
-    Buttonjobhome
+    Buttonjobhome,
     //^^^^^
-}
+    //-----For Cards Page
+    Buttoncardback,
+    //^^^^^^^^^^
+    //------Botanical Page
+    Buttonbot,
+    Buttonbotmenu
+    //^^^^^^^^^^^^
+
+  }

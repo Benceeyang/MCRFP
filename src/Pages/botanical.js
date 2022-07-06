@@ -1,14 +1,19 @@
+import React from 'react'
 import './botanical.css';
 import logo from './Cads/images/gardenzzz.png'
 import table from './Cads/images/table.jpg'
-
 import {Link} from 'react-router-dom'
+import{Buttonbot,Buttonbotmenu,} from '../Button'
+
+
+
 
 function BotanicalPage() {
+  
   return (
     
     <div className = "holy">
-       
+      
     <div className = "App">
       <h1>Botanical Gardens</h1>
       
@@ -22,6 +27,16 @@ function BotanicalPage() {
 
         <div className = "pictureone">
         <img src={logo}/>
+        <div>
+    <Link to='/cards'>
+    <Buttonbot />
+    </Link>   
+    </div>
+    <div>
+    <Link to='/'>
+    <Buttonbotmenu />
+    </Link>   
+    </div>
         </div>
         <div className = "bio">
           <h3>Garden Guide</h3>

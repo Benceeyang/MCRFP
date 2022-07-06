@@ -7,7 +7,7 @@ function DirectoryPage() {
   return (
     <div className = 'background'>
 
-        Directory Page
+        |
     
     <Link to='/'>
     <Buttonreturndir />
