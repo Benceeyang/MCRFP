@@ -27,9 +27,9 @@ function DirectoryPage() {
     <Link to='/children'>
     <Buttonchildren />
     </Link>  
-    <Link to='/housing'>
-    <Buttonhousing />
-    </Link> 
+    <Link to = '/botanical'>
+    <Buttonhousing/>
+    </Link>
     </div>
   )
 }

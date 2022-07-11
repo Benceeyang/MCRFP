@@ -11,7 +11,9 @@ function JobPage() {
         <Link to='/'>
     <Buttonjobhome/>
     </Link>   
-    
+    <Link to ='/'>
+    <Buttonjobhome/>
+    </Link>
     </div>
   )
 }

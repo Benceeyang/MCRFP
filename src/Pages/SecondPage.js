@@ -11,7 +11,7 @@ function SecondPage() {
     <div className='background'>
       .
         <Clockerr className='clocker' />
-        <Link to ='/job'>
+        <Link to ='/jobsite'>
         <Buttonjobs />
         </Link>
         <Link to ='/office '>
@@ -23,7 +23,7 @@ function SecondPage() {
         <Link to ='/dir'>
         <Buttondir />
         </Link>
-        <Link to ='/'>
+        <Link to ='/home'>
         <Buttonabout />
         </Link>
         <Link to ='/dir'>
