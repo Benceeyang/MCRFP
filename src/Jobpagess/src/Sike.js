@@ -4,7 +4,19 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Search from "./components/Search";
 import './indexx.scss'
+import {Link} from 'react-router-dom'
 function Appjob() {
+  const ButtonFunction= () =>{
+    return (
+      <div className='Cardsback'>
+          <button1>
+             Menu
+          </button1>
+          
+      </div>
+    )
+  }
+  
   const [filterKeywords, setfilterKeywords] = useState([]);
 
   // const setSearchKeyword = (data) => {
@@ -38,6 +50,7 @@ function Appjob() {
           removeKeywords={deleteKeyword}
           clearAll={clearAll}
         />
+        
       )}
 
       <Jobs
@@ -45,6 +58,7 @@ function Appjob() {
         data={data}
         setKeywords={addFilterKeywords}
       />
+      <Link to='/'><ButtonFunction/></Link>
     </div>
   );
 }

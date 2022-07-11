@@ -2,7 +2,7 @@
   {
     "id": 1,
     "company": "Milwaukee County",
-    "logo": "./images/photosnap.svg",
+    "logo": "./images/mkec.png",
     "new": true,
     "featured": true,
     "position": "Park Maintenance Worker 2 - In Charge",
@@ -92,7 +92,7 @@
   {
     "id": 7,
     "company": "Milwaukee County",
-    "logo": "./images/shortly.svg",
+    "logo": "./images/mkec.png",
     "new": false,
     "featured": false,
     "position": "Family Visitation Security Officer",

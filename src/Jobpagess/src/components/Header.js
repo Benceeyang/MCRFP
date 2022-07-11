@@ -1,10 +1,15 @@
 import React from "react";
 import close from "./images/icon-remove.svg";
-
+import {Link} from 'react-router-dom'
 const Header = ({ keywords, removeKeywords, clearAll }) => {
+
   return (
+    
+             
     <div className="header-container">
+      
       <ul>
+        
         {keywords.map((key, id) => {
           return (
             <li key={id}>
@@ -15,11 +20,15 @@ const Header = ({ keywords, removeKeywords, clearAll }) => {
             </li>
           );
         })}
+        <div>
+        
+       </div>
         <a href="#" onClick={() => clearAll()}>
           Clear
         </a>
       </ul>
     </div>
+   
   );
 };
 
